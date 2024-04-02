@@ -30,7 +30,7 @@ let currentPage = 1;
         });
 
         // Event listener for loading previous page
-        document.getElementById('loadPrev').addEventListener('click', () => {
+        document.getElementById('load_prev').addEventListener('click', () => {
             if (currentPage > 1) {
                 currentPage--;
                 document.getElementById('pageHeading').textContent = `Page number ${currentPage}`;
