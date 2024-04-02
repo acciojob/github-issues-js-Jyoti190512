@@ -23,7 +23,7 @@ let currentPage = 1;
         fetchIssues(currentPage);
 
         // Event listener for loading next page
-        document.getElementById('loadNext').addEventListener('click', () => {
+        document.getElementById('load_next').addEventListener('click', () => {
             currentPage++;
             document.getElementById('pageHeading').textContent = `Page number ${currentPage}`;
             fetchIssues(currentPage);
